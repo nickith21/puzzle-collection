@@ -1,0 +1,320 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+    font-family: arial;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+/* end css reset */
+
+.wrapper {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+header{
+    background: green;
+}
+
+header:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+#logo{
+    background: url() no-repeat;
+    height: 70px;
+    width: 280px;
+    float: left;
+    text-indent: -10000px;
+}
+
+header nav {
+    float: right;
+    margin-top: 30px;
+    margin-right: 10px;
+}
+
+header nav a {
+    color: #fff;
+    text-decoration: none;
+    font-family: arial;
+}
+
+header nav h2{
+    height: 0;
+    text-indent: -10000px;
+}
+
+header nav li{
+    float: left;
+    margin-left: 20px;
+}
+
+header nav span {
+    color: green;
+    margin-left: 20px;
+}
+
+#lead-banner img {
+    width: 100%;
+}
+
+#lead-banner {
+    max-height: 440px;
+    overflow: hidden;
+    position: relative;
+}
+
+.banner-overlay{
+    position: absolute;
+    top: 45%;
+    width: 100%;
+}
+
+.banner-title{
+    color: green;
+    text-transform: uppercase;
+    font-size: 32px;
+    text-align: center;
+    top: 20px;
+}
+
+#lead-banner p {
+    color: green;
+    font-size: 24px;
+    max-width: 600px;
+    margin-top: 10px;
+}
+
+#lead-banner a {
+    color: green;
+    display: block;
+    width: 200px;
+    font-size: 18px;
+    text-align: center;
+    padding: 16px 0;
+    text-decoration: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    margin-top: 30px;
+    box-shadow: 1px 1px 6px rbga(0,0,0,0.4);
+}
+
+section {
+    margin: 40px 0 60px;
+}
+
+section:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+#samples {
+    border-top: 1px solid #ccc;
+    padding-top: 30px;
+}
+
+#samples h2 {
+    background-color: green;
+    color: #fff;
+    padding: 8px;
+    text-align: center;
+    width: 250px;
+    text-transform: uppercase;
+    position: relative;
+    top: -45px;
+    margin: 0 auto;
+    border-left: 16px solid #fff;
+    border-right: 16px solid #fff;
+}
+
+#samples ul{
+    list-style-type: none;
+}
+
+#samples li {
+    float: left;
+    width: 32%;
+}
+
+#samples li img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#samples li:nth-child(2){
+    margin: 0 2%;
+}
+
+#samples li h3 {
+    text-align: center;
+    color: #888;
+    font-size: 24px;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+
+#samples p{
+    text-align: center;
+    width: 80%;
+    margin: 0 10%;
+    font-size: 14px;
+    color: #888;
+    line-height: 1.4em;
+}
+
+#contact {
+    border-top: 1px solid #ccc;
+    padding-top: 30px;
+}
+
+#contact h2{
+    background-color: green;
+    color: #fff;
+    padding: 8px;
+    text-align: center;
+    width: 250px;
+    text-transform: uppercase;
+    position: relative;
+    top: -45px;
+    margin: 0 auto;
+    border-left: 16px solid #fff;
+    border-right: 16px solid #fff;
+}
+
+#contact-methods{
+    float: left;
+}
+
+#contact-methods li {
+    list-style-type: none;
+    color: #888;
+    clear: left;
+}
+
+#contact-methods li img {
+    height: 20px;
+    position: relative;
+    top: 5px;
+}
+
+#contact-methods li:before{
+    content: "";
+    display: block;
+    width: 40px;
+    height: 40px;
+    line-height: 100px;
+    text-align: center;
+    float: left;
+    margin-right: 10px;
+}
+
+#map {
+    float: right;
+    height: 200px;
+    margin-right: 50px;
+    vertical-align: middle;
+}
